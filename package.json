@@ -1,0 +1,23 @@
+{
+  "name": "project_kino",
+  "version": "1.0.0",
+  "description": "Web Portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimFung93/Project-Kino.git"
+  },
+  "author": "Timothy Fung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimFung93/Project-Kino/issues"
+  },
+  "homepage": "https://github.com/TimFung93/Project-Kino#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
