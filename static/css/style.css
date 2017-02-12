@@ -1,7 +1,7 @@
 body, html {
 	margin: 0 auto;
   padding: 0;
-  color:black;
+  color:white;
   background: repeating-linear-gradient(
   45deg,   #033333, #000E0E 500px )
 }
@@ -17,8 +17,10 @@ body, html {
   height: 100%
 }
 
-
-
+.containimg {
+  margin-top: 140px;
+  margin-bottom: 100px;
+}
 
 
 
@@ -30,6 +32,17 @@ body, html {
 
 }
 
+.divide {
+  margin-top: 88px;
+  margin-bottom: 88px;
+}
+
+.seperate {
+
+  margin-top: 170px;
+  margin-bottom: 88px;
+
+}
 
 .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -106,6 +119,12 @@ body, html {
   .modal.right .modal-content {
     height: 100%;
     overflow-y: auto;
+    background-color: transparent;
+    background-image:  linear-gradient(to bottom, 
+      black 55%,
+      rgba(0,0,0,0.6),
+      rgba(0,0,0,0.3));
+
   }
   
   .modal.right .modal-body {
@@ -132,8 +151,8 @@ body, html {
   }
 
   .modal-header {
-    border-bottom-color: #EEEEEE;
-    background-color: #FAFAFA;
+    border-bottom-color: #F05F40;
+    background-color: #F05F40;
   }
 
 
