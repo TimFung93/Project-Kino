@@ -2,9 +2,20 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/index.html', (req, res) => {
 	res.sendFile(path.join(__dirname + '/index.html'));
 });
+
+app.get('/about.html', (req, res) => {
+	res.sendFile(path.join(__dirname + '/about.html'));
+})
+
+
+
+app.get('/gallery.html', (req, res) => {
+	res.sendFile(path.join(__dirname + '/gallery.html'));
+})
+
 
 app.use(express.static('public'))
 
